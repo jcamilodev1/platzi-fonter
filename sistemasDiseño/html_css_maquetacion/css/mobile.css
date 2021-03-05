@@ -1,0 +1,42 @@
+@media (max-width:705px){
+    .main_section{
+        height: auto;
+    }
+    .products{
+        height: auto;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .product .content{
+        margin:20px 0;
+
+    }
+    .container-cards {
+        margin: 15px 20px;
+         height: auto;
+    }
+    .cards{
+        margin:20px 0;
+    }
+   .coment{
+       height: auto;
+   }
+   .footer{
+       height: auto;
+       display: block;
+       
+   }
+   .footer li{
+    margin: 0;
+    margin-left: 10px;
+    
+}
+
+   .footer h3{
+    text-align: center;
+   }
+   .redes img{
+    width: 30px;
+    
+}
+}

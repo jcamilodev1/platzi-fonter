@@ -1,0 +1,193 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: Helvetica;
+  text-transform: capitalize;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7acc2d;
+  padding: 10px;
+  color: white;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+nav li a {
+  color: gray;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: white;
+}
+.main_section {
+  height: 400px;
+  display: flex;
+
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.products {
+  background-image: url(../img/curve.png);
+  height: 500px;
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.product {
+  padding: 10px;
+}
+.product .content {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px #d1c8c8;
+  margin-top: -90px;
+}
+.img-content {
+  text-align: center;
+}
+.text-content {
+  text-align: center;
+  width: 200px;
+}
+.main-button {
+  background-color: #7acc2d;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 3px 4px gray;
+  transition: all 300ms;
+}
+.main-button:hover {
+  background-color: #4f831e;
+  box-shadow: 0px 0px 0px #90e73f inset;
+}
+.container-cards {
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+.cards {
+  box-shadow: 0 1px 5px #b2adad;
+  overflow: hidden;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  text-align: center;
+}
+.coment {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-items: star;
+  flex-wrap: wrap;
+}
+.mencion {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+}
+.person {
+  margin: 20px;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  box-shadow: 0 1px 5px #b2adad;
+}
+.footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #7acc2d;
+}
+.footer ul {
+  display: flex;
+  list-style: none;
+}
+.footer li {
+  margin: 20px;
+}
+.footer h3 {
+  color: white;
+  font-size: 30px;
+}
+.redes img {
+  width: 100px;
+}
+/*   
+venta
+*/
+.modulo-pago {
+  background-color: white;
+  box-shadow: 0 1px 5px #b2adad;
+  padding: 10px;
+}
+.cont-img {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.wrapp {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+/*  FORMULARIO  */
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+label {
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.data {
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  box-shadow: 0 1px 5px #b2adad;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.modulo-pago {
+  padding: 15px;
+}
+/*                          PQRS                                    */
+.pqrs-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.pregunta {
+  display: flex;
+  flex-direction: column;
+}

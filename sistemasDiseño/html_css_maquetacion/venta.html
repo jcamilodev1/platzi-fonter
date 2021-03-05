@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <title>Brand</title>
+  </head>
+
+  <body>
+    <!--aqui empieza el navbar-->
+    <nav class="animate__animated animate__fadeInUp">
+      <div class="brand_image">
+        <a href="./index.html">
+          <img src="./img/logo.png" alt="logo de brand" />
+        </a>
+      </div>
+      <div class="nav_option">
+        <ul>
+          <li><a href="./pqrs.html">Pqrs</a></li>
+          <li><a href="./producto.html">Producto y Descripcion</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--fformulaeio-->
+    <div class="container-product">
+      <div class="row wrapp">
+        <class class="col-4">
+          <div class="modulo-pago">
+            <figure class="cont-img">
+              <img src="./img/box1.png" width="150px" alt="producto1" />
+            </figure>
+            <h3>producto1</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloribus cum repudiandae voluptas nihil, voluptates ipsum labore
+            </p>
+          </div>
+        </class>
+        <div class="col-3">
+          <div class="modulo-pago">
+            <form
+              action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZ5EJ9BAF6CDE"
+              method="POST"
+            >
+              <label for="nombre">nombre</label>
+              <input type="text" name="name" class="data" />
+              <label for="nombre">e-mail</label>
+              <input type="email" name="email" class="data" />
+              <label for="telefono">telefono</label>
+              <input type="phone" name="phone" class="data" />
+              <input
+                type="submit"
+                name="submit"
+                class="main-button"
+                value="confirmar pago"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <h3>RingilDeveloper</h3>
+      <ul>
+        <li class="redes">
+          <a href="https://github.com/RingilDeveloper"
+            ><img src="./img/github.png" alt="github ringildeveloper"
+          /></a>
+        </li>
+        <li class="redes">
+          <a href="#"
+            ><img src="./img/facebook.png" alt="facebook ringildeveloper"
+          /></a>
+        </li>
+        <li class="redes">
+          <a href="#"
+            ><img src="./img/insta.png" alt="instagram ringildeveloper"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

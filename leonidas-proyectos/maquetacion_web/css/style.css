@@ -1,0 +1,253 @@
+body {
+  font-family: krona;
+  margin: 0;
+  background-image: url(../images/);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: roboto;
+}
+h1 {
+  text-transform: capitalize;
+  line-height: 35px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  color: white;
+  margin-left: 10px;
+}
+.menu {
+  justify-content: center;
+}
+.menu ul {
+  margin: 0px auto;
+}
+
+h2 {
+  color: #026fff;
+}
+h1 strong {
+  color: #026fff;
+}
+h1 a {
+  text-decoration: none;
+  color: #026fff;
+}
+.hero {
+  height: 300px;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero img {
+  width: 500px;
+  height: 300px;
+  vertical-align: middle;
+}
+.project {
+  border: 1px solid;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-details {
+  width: 50%;
+}
+.project-title {
+  font-size: 25px;
+}
+.project-imageContainer {
+  width: 50%;
+}
+.project-imageContainer img {
+  max-width: 100%;
+  width: 100%;
+}
+.header {
+  background-color: #1d2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menu {
+  height: inherit;
+}
+.header ul li {
+  height: inherit;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  height: inherit;
+}
+
+.portfolio {
+  background: #f6f4f498;
+  padding: 20px;
+}
+.portfolio h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+figure {
+  margin: 0px;
+}
+.event {
+  margin: 1%;
+  width: 48%;
+  border-radius: 10px;
+  overflow: hidden;
+
+  background-color: #f4fbff;
+}
+
+.event-list-title {
+  margin-left: 50px;
+}
+.event img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+.eventos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.event-details {
+  margin: 25px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+.event-url {
+  border: 1px solid #056fff;
+  padding: 2px 20px;
+  text-decoration: none;
+  color: #056fff;
+  border-radius: 5px;
+}
+.event-descripcion {
+  text-align: left;
+}
+.contacto {
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 30px;
+  background-size: 50px 50px;
+}
+.social-link.twitter {
+  background-image: url(../images/twitter.svg);
+}
+.social-link.facebook {
+  background-image: url(../images/facebook.svg);
+}
+.social-link.instagram {
+  background-image: url(../images/instagram.svg);
+}
+.social-link.github {
+  background-image: url(../images/github.svg);
+}
+.footer img {
+  vertical-align: middle;
+}
+.container.email {
+  padding: 10px;
+}
+.form-email input {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px 20px 5px 25px;
+  background-image: url(../images/envelope.svg);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+.form-email button {
+  display: block;
+  padding: 10px;
+  background: transparent;
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  max-width: 1000px;
+  flex: 1;
+  display: inherit;
+  margin: 0 auto;
+  justify-content: inherit;
+  align-items: initial;
+  height: inherit;
+  padding: 0 1em;
+}
+.video {
+  width: 100%;
+  height: auto;
+}
+.burguer-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(27, 33, 39, 0.8);
+  display: none;
+  text-align: center;
+  line-height: 40px;
+  position: fixed;
+  z-index: 5;
+  left: 5px;
+  top: 5px;
+  color: white;
+}
